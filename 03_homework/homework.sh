@@ -14,6 +14,19 @@ ls -a
 
 # 3. In each directory, how would you create 5 .txt files and write "I love data" into each within the directories?
 touch dir1/file1.txt dir2/file2.txt dir3/file3.txt dir4/file4.txt dir5/file5.txt
+    # to add text
+echo "I love data" >> dir1/file1.txt
+echo "I love data" >> dir2/file2.txt
+echo "I love data" >> dir3/file3.txt
+echo "I love data" >> dir4/file4.txt
+echo "I love data" >> dir5/file5.txt
+
+   # a faster way, creating file with text:
+echo "I love data" > dir1/file1.txt
+echo "I love data" > dir2/file2.txt
+echo "I love data" > dir3/file3.txt
+echo "I love data" > dir4/file4.txt
+echo "I love data" > dir5/file5.txt
 
 # 4. How would you verify the presence of all 5 files?
 cd dir1
